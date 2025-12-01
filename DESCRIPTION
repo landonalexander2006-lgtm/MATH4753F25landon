@@ -17,3 +17,12 @@ LazyData: true
 usethis: :create_github_token()
 URL: https://github.com/landonalexander2006-lgtm/MATH4753F25landon
 BugReports: https://github.com/landonalexander2006-lgtm/MATH4753F25landon/issues
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
